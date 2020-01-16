@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-family: $text-font;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -61,6 +61,7 @@ section {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
+  color: #fff;
 }
 
 .btn-home {
@@ -99,6 +100,7 @@ section {
   position: relative;
   font-family: $title-font;
   font-weight: 700;
+  color: #fff;
 }
 
 .page-subtitle {
@@ -106,6 +108,7 @@ section {
   font-size: 40px;
   font-family: $text-font;
   font-style: italic;
+  color: #fff;
 }
 
 .btn-one {
