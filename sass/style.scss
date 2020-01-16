@@ -1,0 +1,123 @@
+/* #########  VARIABLES   ######### */
+$title-font: 'Montserrat', sans-serif;
+$text-font: 'Lora', serif;
+$main-color: #fed136;
+$transition: all 1s;
+
+/* #########  GLOBAL      ######### */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $text-font;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto; /* centered vertically */
+}
+
+section {
+  padding: 96px 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 250px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* #########  NAVIGATION  ######### */
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+  right: 40px;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+  font-family: $title-font;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-home {
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+  color: $main-color;
+  font-size: 20px;
+  z-index: 2;
+  left: 40px;
+}
+
+/* #########  HEADER      ######### */
+.splash {
+  background: linear-gradient(
+                      rgba(20,20,20, .5),
+                      rgba(20,20,20, .5)),
+                      url("/images/splash.jpg");
+  height: 80vh;
+  background-position: center 50%;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.page-title {
+  font-size: 60px;
+  margin: 24px 0 0 0;
+  position: relative;
+  font-family: $title-font;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  margin: 48px 0 0 0;
+  font-size: 40px;
+  font-family: $text-font;
+  font-style: italic;
+}
+
+.btn-one {
+  background: $main-color;
+  color: #fff;
+  transition: $transition;
+}
+
+.btn-one:hover {
+  background: #ba9925;
+}
+
+/* #########  SERVICES    ######### */
+/* #########  PORTFOLIO   ######### */
+/* #########  FOOTER      ######### */
